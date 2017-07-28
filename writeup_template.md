@@ -47,4 +47,4 @@ One potential shortcoming is visible in the challenge video, the lane line can n
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to to further improve the contrast to find the lane lines und different weather conditions. Another possible improvement would be to find all lane lines on the screen to make the algorithm applicable for practical application.
+A possible improvement would be to to further improve the contrast to find the lane lines und different weather conditions. Another possible improvement would be to find all lane lines on the screen to make the algorithm applicable for practical application. Another possible improvment would be to smoothen the change of position of the lines so they dont jump around.
