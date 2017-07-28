@@ -42,11 +42,9 @@ As the light condition in the extra challenge are worse, I included a mechanism 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming is visible in the challenge video, the lane line can not be found under every condition and would need to be further improved before it can be used in a practical application. For a practical application in a self driving car its also questionable if its enough to just find the lines in certain areas of the screen and just two of them. Here in Germany par example, if the is a construction side there would be yellow lines drawn over the white ones and they have a hight importance then.
+One potential shortcoming is visible in the challenge video, the lane line can not be found under every condition and would need to be further improved before it can be used in a practical application. For a practical application in a self driving car its also questionable if its enough to just find the lines in certain areas of the screen and just two of them. Here in Germany par example, if the is a construction side there would be yellow lines drawn over the white ones and they have a higher importance then. For a real life application the algorithm would be much more complex.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be to to further improve the contrast to find the lane lines und different weather conditions. Another possible improvement would be to find all lane lines on the screen to make the algorithm applicable for practical application.
