@@ -4,16 +4,6 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
-[imageWhite]: ./reportPictures/whiteLine.jpg "White Lines"
-[imageCanny]: ./reportPictures/2 canny.jpg "Canny "
-[imageCut]: ./reportPictures/cut.jpg "Cute Picture"
-[imageFinal]: ./reportPictures/final.jpg "Final Image"
-
 ---
 
 ### Reflection
@@ -30,7 +20,7 @@ In step two Canny Edge Detection is used to mark all edges on the picture.
 
 In step three a tetragon is defined and applied on the picture, to cut out the edges that are of no interest. This is possible as the the area of interest for lanelines is always about the same.
 
-<img src="reportPictures/3 reportPictures/3 cut.jpg" width="480"/>
+<img src="reportPictures/reportPictures/3 cut.jpg" width="480"/>
 
 In the final step Hough Line Transform is applied to find straight lines in the edges. In order to draw a single line on the left and right lanes, I modified the draw_lines() function by firstly seperating the slopes into positive and negative ones, this is helpful as there are just two lines to be drawn of which one has a rising slope and one has a falling slope.
 
