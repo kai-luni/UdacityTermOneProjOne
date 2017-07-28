@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
 [imageWhite]: ./reportPictures/whiteLine.jpg "White Lines"
-[imageCanny]: ./reportPictures/canny.jpg "Canny "
+[imageCanny]: ./reportPictures/2 canny.jpg "Canny "
 [imageCut]: ./reportPictures/cut.jpg "Cute Picture"
 [imageFinal]: ./reportPictures/final.jpg "Final Image"
 
@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 4 steps. First, I used thrsholds to pick out white and yellow pixel which might be street lines and color them white, the rest is draw black to get the optimum of a contrast.
 
-<img src="reportPictures/whiteLine.jpg" width="480" alt="White Lines" />
+<img src="reportPictures/1 whiteLine.jpg" width="480"/>
 
 In step two Canny Edge Detection is used to mark all edges on the picture.
 
