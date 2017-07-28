@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 4 steps. First, I used thrsholds to pick out white and yellow pixel which might be street lines and color them white, the rest is draw black to get the optimum of a contrast.
 
-![alt text][imageWhite]
+<img src="reportPictures/whiteLine.jpg" width="480" alt="White Lines" />
 
 In step two Canny Edge Detection is used to mark all edges on the picture.
 
