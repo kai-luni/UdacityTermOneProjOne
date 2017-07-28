@@ -9,13 +9,18 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
+[imageWhite]: ./examples/whiteLine.jpg "White Lines"
+[imageCanny]: ./examples/canny.jpg "Canny "
+[imageCut]: ./examples/cut.jpg "Cute Picture"
+[imageFinal]: ./examples/final.jpg "Final Image"
+
 ---
 
 ### Reflection
 
 ### 1. Description of the pipeline
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps. First, I used thrsholds to pick out white and yellow pixel which might be street lines.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
